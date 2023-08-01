@@ -7,20 +7,7 @@ import ListaTarefas from './components/ListaTarefas.vue';
   const estado = reactive({
     filtro: 'todas',
     tarefasTemp: '',
-    tarefas: [
-      {
-        titulo: 'Estudas ES6',
-        finalizada: false
-      },
-      {
-        titulo: 'Estudar SASS',
-        finalizada: false
-      },
-      {
-        titulo: 'Academia',
-        finalizada: true
-      },
-    ]
+    tarefas: []
   })
 
   const getTarefasPendentes = () => {
